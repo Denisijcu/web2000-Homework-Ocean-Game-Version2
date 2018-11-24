@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 15px;
+    padding: 15px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.r{
+  display: flex;
+  flex-direction: row;
+  flex-shrink: inherit;
+  flex-wrap: wrap;
+}
+
+.rc{
+    flex: 1;
+}
+
+.gameBackGround{
+    background-image: url('img/a1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vw;
+    max-height: 40vw;
+    padding: 5vw;  
+}
+
+.c1{
+    background-image: url('img/m1.png');
+    background-size: 5vw 5vw;
+    background-repeat: no-repeat;
+    min-width: 7vw;
+    max-width: 7vw;
+    min-height: 5vw;
+    max-height: 5vw;
+}
+.c2{
+    background-image: url('img/m2.png');
+    background-size: 5vw 5vw;
+    background-repeat: no-repeat;
+    min-width: 7vw;
+    max-width: 7vw;
+    min-height: 5vw;
+    max-height: 5vw;
+}
+.c3{
+    background-image: url('img/m3.png');
+    background-size: 5vw 5vw;
+    background-repeat: no-repeat;
+    min-width: 7vw;
+    max-width: 7vw;
+    min-height: 5vw;
+    max-height: 5vw;
+}
+.c4{
+   
+    background-size: 5vw 5vw;
+    background-repeat: no-repeat;
+    min-width: 7vw;
+    max-width: 7vw;
+    min-height: 7vw;
+    max-height: 7vw;
+}
+
+
+.c5{
+  
+    background-size: 5vw 5vw;
+    background-repeat: no-repeat;
+    min-width: 7vw;
+    max-width: 7vw;
+    min-height: 7vw;
+    max-height: 7vw;
+}
+.c6{
+   
+    background-size: 5vw 5vw;
+    background-repeat: no-repeat;
+    min-width: 7vw;
+    max-width: 7vw;
+    min-height: 7vw;
+    max-height: 7vw;
+}
+.c7{
+   
+   
+    background-size: 5vw 5vw;
+    background-repeat: no-repeat;
+    min-width: 7vw;
+    max-width: 7vw;
+    min-height: 7vw;
+    max-height: 7vw;
+}
+.c8{
+   
+    background-size: 5vw 5vw;
+    background-repeat: no-repeat;
+    min-width: 7vw;
+    max-width: 7vw;
+    min-height: 7vw;
+    max-height: 7vw;
+}
+
+.c9{
+   
+    background-size: 5vw 5vw;
+    background-repeat: no-repeat;
+    min-width: 7vw;
+    max-width: 7vw;
+    min-height: 7vw;
+    max-height: 7vw;
+}
+.c10, .c11, .c12, .c13, .c14, .c15, .c16, .c17, .c18, .c19{
+   
+    background-size: 5vw 5vw;
+    background-repeat: no-repeat;
+    min-width: 7vw;
+    max-width: 7vw;
+    min-height: 7vw;
+    max-height: 7vw;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 20vw;
+    top: 2vw;
+    float: left;
+}
+
+.history {
+    position: absolute;
+    left: 25vw;
+    top: 15vw;
+    float: left;
+    background-color: seagreen;
+    min-width: 60vw;
+    max-width: 60vw;
+    min-height: 30vw;
+    max-height: 30vw;
+    padding: 30px;
+    box-shadow: 4px 4px 4px;
+    overflow: auto;
+    display: none;
+
+}
+
+.table-score{
+    position: fixed;
+    right: 5vh;
+    top: 5vh;
+    background-image: linear-gradient(to right,teal , yellow);
+    color: white;
+    padding: 1.5vw;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 9%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    width: 10vw;
+    overflow: hidden;
+     box-shadow: 5px 0px 0px black inset;
+     border:  2px solid black;
+}
+.score {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    background-color: black;
+    padding: 2px;
+    border-radius: 0px;
+    margin: 3px;
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.notice {
+    position: relative;
+    left: 15px;
+    color:orange;
+    font-weight: bold;
+}
+.item{
+    padding:1em;
+    box-sizing: border-box;
+    height: auto;
+    width: 3vw;
+    display:flex
+}
+
+#fishes{
+    min-width: 30vw;
+    max-height: auto;
+    max-width: 30vw;
+    min-height: auto;
+    border: 1px solid white;
+    box-shadow: 4px 4px 4px black;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+
+img {
+    min-width: 5vw;
+    max-height: auto;
+    max-width: 5vw;
+    min-height: auto;
+}
+
+.card-text{
+   text-align: center;
+}
+

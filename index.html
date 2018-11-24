@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Web2000-Homework-Ocean-Game</title>
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="mystyle.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sonido" style="display:none">
+        <audio controls id="sonido">
+          <source src="media/Dolphinsound.mp3" type="audio/mpeg" />
+
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div class="row">
+        <div class="col-12  ms- 12 gameBackGround" id="bk">
+          <div class="row r">
+            <div class="col-1 rc c1" id="c1"></div>
+            <div class="col-1 rc c2" id="c2"></div>
+            <div class="col-1 rc c3" id="c3"></div>
+            <div class="col-1 rc c4" id="c4"></div>
+            <div class="col-1 rc c5" id="c5"></div>
+            <div class="col-1 rc c6" id="c6"></div>
+            <div class="col-1 rc c7" id="c7"></div>
+            <div class="col-1 rc c8" id="c8"></div>
+          </div>
+          <div class="row r">
+            <div class="col-1 rc c9" id="c9"></div>
+            <div class="col-1 rc c10" id="c10"></div>
+            <div class="col-1 rc c11" id="c11"></div>
+            <div class="col-1 rc c12" id="c12"></div>
+            <div class="col-1 rc c13" id="c13"></div>
+            <div class="col-1 rc c14" id="c14"></div>
+            <div class="col-1 rc c15" id="c15"></div>
+            <div class="col-1 rc c16" id="c16"></div>
+          </div>
+          <div class="row r">
+            <div class="col-1 rc c17" id="c17"></div>
+            <div class="col-1 rc c18" id="c18"></div>
+            <div class="col-1 rc c19" id="c19"></div>
+            <div class="col-1 rc c20" id="c20"></div>
+            <div class="col-1 rc c21" id="c21"></div>
+            <div class="col-1 rc c22" id="c22"></div>
+            <div class="col-1 rc c23" id="c23"></div>
+            <div class="col-1 rc c24" id="c24"></div>
+          </div>
+        </div>
+        <div class="row buttons col-ms-12">
+          <div class="col3">
+            <button type="button" class="c1" id="btn1"></button>
+          </div>
+          <div class="col3">
+            <button type="button" class="c2" id="btn2"></button>
+          </div>
+          <div class="col3">
+            <button type="button" class="c3" id="btn3"></button>
+          </div>
+        </div>
+
+        <div class="card text-center history" id="history">
+          <div class="card-header" id="idTitle">Fish</div>
+          <div class="card-body">
+            <div class="card-image">
+              <img src="img/m1.png" alt="fish" id="idHistory" />
+            </div>
+            <h5 class="card-title" id="card-title"></h5>
+            <div class="card-text"></div>
+            <a href="#" class="btn btn-primary" id="btnClose">Close</a>
+          </div>
+          <div class="card-footer text-muted"></div>
+        </div>
+      </div>
+      <div class="table-score">
+          
+            <p style="text-align: center; color: Red; font-size: 23px">Score <br><span style="color: white; font-size:12px;">Click's Times</span></p>
+        <div class="row score">
+          <div class="col-2 item">Fish</div>
+          <div class="col-2 item" id="score-fish">0</div>
+        </div>
+        <div class="row score">
+          <div class="col-2 item">Crab</div>
+          <div class="col-2 item" id="score-crab">0</div>
+        </div>
+        <div class="row score">
+          <div class="col-2 item">Dolphin</div>
+          <div class="col-2 item" id="score-dolphin">0</div>
+        </div>
+      </div>
+    </div>
+    <footer>
+            <em>Built by Denis Sanchez-Leyva Class Web2000 - FVI - TechLaunch.io  Nov - 2018</em>
+        </footer>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src='data/data.js'></script>
+    <script src='js/app.js'></script>
+    
+  </body>
+</html>
